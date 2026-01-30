@@ -267,7 +267,7 @@ body {
 }
 
 /*  MOBILE Responsive  */
-@media (max-width: 599px) {
+@media (max-width: 600px) {
   .one {
     font-size: 28px;
   }
@@ -277,8 +277,19 @@ body {
   }
 
   .nav img {
-    width: 140px;
+    width: 100px;
+    margin: 0px -30px;
   }
+
+  .button{
+    gap: 0px;
+    margin: 0px -30px; ;
+  }
+
+  .button select{
+    margin: 0px 5px;
+  }
+
 }
 
 
